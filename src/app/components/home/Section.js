@@ -2,8 +2,8 @@ import React from "react";
 
 function Section({ activeSection, img, direction, text }) {
 	return (
-		<div className="section border-4 border-red-950">
-			<div className="image-container border-4 border-red-950">
+		<div className="section ">
+			<div className="image-container  relative">
 				<div
 					className={`image ${activeSection === 0 ? "active" : ""}`}
 					// style={{ backgroundImage: "url(image1.jpg)" }}
@@ -11,7 +11,8 @@ function Section({ activeSection, img, direction, text }) {
 				>
 					<div className="greyish-layer"></div>
 				</div>
-				<div className={`text-container container ${direction} border-4 border-slate-950 h-full flex items-end`}>
+
+				<div className={`text-container container ${direction}  h-full flex items-end absolute top-56`}>
 					<div className="scroll-container ">
 						<div
 							className={`scrolling-text ${activeSection === 0 ? "active" : ""

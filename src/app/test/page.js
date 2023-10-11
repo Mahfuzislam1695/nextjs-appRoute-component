@@ -7,17 +7,10 @@ import Head from "next/head";
 function ImageContainer() {
 	const [activeSection, setActiveSection] = useState(0);
 
-	console.log("activeSection", activeSection);
-
 	useEffect(() => {
 		function changeImage() {
-			const scroll1 = (window.scrollY + window.innerHeight / 8);
-			const scroll = scroll1 + 200;
+			const scroll = (window.scrollY + window.innerHeight / 8);
 			const sections = document.getElementsByClassName("section");
-
-			// console.log("scroll1", scroll1);
-			console.log("scroll", scroll);
-			// console.log("sections", sections);
 
 			for (let i = 0; i < sections.length; i++) {
 				const section = sections[i];
@@ -56,10 +49,10 @@ function ImageContainer() {
 	};
 
 	return (
-		<div>
+		<div >
 
-			<div>
-				<div className="scroll-smooth">
+			<div >
+				<div className="scroll-smooth text-center">
 					<Section
 						activeSection={activeSection}
 						img="url(image1.jpg)"
@@ -71,14 +64,14 @@ function ImageContainer() {
 						activeSection={activeSection}
 						img="url(image2.jpg)"
 						direction="justify-end"
-						text="Tina was in her early 20s."
+						text="2nd Tina was in her early 20s."
 					/>
 
 					<Section
 						activeSection={activeSection}
 						img="url(image1.jpg)"
 						direction="justify-start"
-						text="But it derailed her life. Tina was in her
+						text="3rd But it derailed her life. Tina was in her
 					early 20s. "
 					/>
 
@@ -87,41 +80,35 @@ function ImageContainer() {
 						activeSection={activeSection}
 						img="url(image2.jpg)"
 						direction="justify-end"
-						text="Tina was in her early 20s. She lived in New York City and was
-					building a promising future for herself in finance."
+						text="4th building a promising future for herself in finance."
+					/>
+
+					<Section
+						activeSection={activeSection}
+						img="url(image1.jpg)"
+						direction="justify-center"
+						text="5th Then came the diagnosis. Finding out she had Crohn’s disease,"
 					/>
 
 					<Section
 						activeSection={activeSection}
 						img="url(image3.jpg)"
 						direction="justify-center"
-						text="Then came the diagnosis. Finding out she had Crohn’s disease,
-					one of two IBD syndromes that affect 10 million people"
-					/>
-
-					<Section
-						activeSection={activeSection}
-						img="url(image3.jpg)"
-						direction="justify-center"
-						text=" She lived in New York City and was building a
-					promising future for herself in finance"
+						text="6th She lived in New York City and was building a"
 					/>
 
 					<Section
 						activeSection={activeSection}
 						img="url(image1.jpg)"
 						direction="justify-start"
-						text="But it derailed her life. Tina was in her
-					early 20s. She lived in New York City and was building a
-					promising future for herself in finance"
+						text="7th. She lived in New York City and was building "
 					/>
 
 					<Section
 						activeSection={activeSection}
 						img="url(image3.jpg)"
 						direction="justify-center"
-						text="Then came the diagnosis. Finding out she had Crohn’s disease,
-					one of two IBD syndromes that affect 10 million people"
+						text="8th Then came the diagnosis. Finding out she had"
 					/>
 				</div>
 
@@ -132,6 +119,12 @@ function ImageContainer() {
 					Next Section
 				</button>
 			</div>
+
+			<header>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+			</header>
 		</div>
 	);
 }
