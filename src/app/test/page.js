@@ -9,7 +9,7 @@ function ImageContainer() {
 
 	useEffect(() => {
 		function changeImage() {
-			const scroll = (window.scrollY + window.innerHeight / 6);
+			const scroll = (window.scrollY + window.innerHeight / 8);
 			const sections = document.getElementsByClassName("section");
 
 			for (let i = 0; i < sections.length; i++) {
