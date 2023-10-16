@@ -16,13 +16,13 @@
 }
 
 .toggleDiv1 {
-  height: 80vh;
+  height: 70vh;
   overflow: hidden;
-  transition: height 20s ease; /* Add transition property */
+  transition: height 0.4s ease; /* Add transition property */
 }
 
 .visible1 {
-  height: 2rem;
+  height: 70vh;
 }
 
 .hidden1 {

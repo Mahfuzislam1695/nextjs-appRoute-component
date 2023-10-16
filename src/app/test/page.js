@@ -120,10 +120,13 @@ function ImageContainer() {
 				</button>
 			</div>
 
-			<header>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+			<header className="h-screen bottom-0 border-4">
+				<div className="mt-96">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi ipsum, at sint asperiores, necessitatibus voluptate obcaecati, illum suscipit officiis non eius voluptas. Nemo, omnis? Consequuntur inventore iste nisi repudiandae.
+				</div>
+
 			</header>
 		</div>
 	);
