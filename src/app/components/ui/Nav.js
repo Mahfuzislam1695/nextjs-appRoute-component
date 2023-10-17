@@ -40,17 +40,17 @@ const Nav = () => {
 							<div
 								className={`${styles.toggleDiv} ${isNavbarVisible ? styles.visible : styles.hidden}`}>
 								<div className="flex space-x-4 justify-end">
-									<div className="text-white pr-2 cursor-pointer  transition duration-300 ease-in-out delay-0 hover:scale-110 flex justify-center items-center ">
+									<div className="text-white pr-2 cursor-pointer  transition duration-100 ease-in-out delay-0 hover:scale-110 flex justify-center items-center ">
 										<Image className="inline-block mr-1" src={youtubeIcon} alt="" width={16} height={16} />Youtube
 										{/* <FaYoutube className="inline-block mr-2" fontSize={20} /> */}
 										{/* Youtube */}
 									</div>
 
-									<div className="text-white pr-2 cursor-pointer  transition duration-300 ease-in-out delay-150 hover:scale-105">
+									<div className="text-white pr-2 cursor-pointer   transition duration-100 ease-in-out delay-0 hover:scale-110 flex justify-center items-center">
 										<Image className="inline-block mr-2" src={facebookIcon} alt="" width={16} height={16} />Facebook
 									</div>
 
-									<div className="text-white pr-2 cursor-pointer  transition duration-300 ease-in-out delay-150 hover:scale-105">
+									<div className="text-white pr-2 cursor-pointer   transition duration-100 ease-in-out delay-0 hover:scale-110 flex justify-center items-center">
 										<Image className="inline-block mr-2" src={linkedinIcon} alt="" width={16} height={16} />Linkedin
 									</div>
 
